@@ -1,13 +1,13 @@
-import express from "express";
+import express , { Application } from "express";
 
 // SETUP UP DOTENV
 import dotenv from 'dotenv';
 dotenv.config();
 
 // IMPORTING ROUTES
-import indexRoutes from './routes/index';
+import indexRoutes from './routes';
 
-const app = express();
+const app: Application = express();
 const PORT = process.env.PORT ?? 5000;
 
 // MIDDLEWARE
