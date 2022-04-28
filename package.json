@@ -12,7 +12,7 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "node --experimental-specifier-resolution=node src/index.js",
-    "dev": "nodemon --exec node --experimental-specifier-resolution=node src/index.js"
+    "start": "node --experimental-specifier-resolution=node src/app.js",
+    "dev": "nodemon --exec node --experimental-specifier-resolution=node src/app.js"
   }
 }
